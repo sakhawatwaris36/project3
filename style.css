@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hdr {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 201, 201);
+}
+
+.logo {
+    margin: 0;
+    padding: 20px 150px 20px 70px;
+    color: blue;
+
+    display: inline-block;
+}
+
+.nav {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 20px;
+
+    box-sizing: border-box;
+    height: 20px;
+}
+
+
+.nav li:hover {
+    color: blue;
+    cursor: pointer;
+
+    border-bottom: 2px solid blue;
+    /* border-style: ; */
+}
+
+
+
+
+
+.btn {
+    margin-left:400px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+
+    border: 0;
+    border-radius: 5px;
+}
